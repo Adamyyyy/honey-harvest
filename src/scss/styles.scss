@@ -1,0 +1,13 @@
+@import "~/bootstrap/scss/bootstrap";
+// Import all of Bootstrap's CSS
+
+@import "abstract/variables";
+@import "abstract/mixins";
+@import "base/base";
+@import "layout/header";
+@import "layout/home";
+@import "layout/footer";
+@import "layout/about";
+@import "layout/product";
+@import "layout/contact";
+@import "base/responsive";
