@@ -1,6 +1,6 @@
 .about-page {
   .hero-holder {
-    background: $text-color-primary url("img/hero-about.jpg") no-repeat
+    background: $text-color-primary url("images/hero-about.jpg") no-repeat
       50% 50%;
     @include background-size(cover);
   }

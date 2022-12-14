@@ -9,7 +9,17 @@ export default defineConfig({
     },
   },
   server: {
-    port: process.env.PORT,
+    port: 8000,
     hot: true,
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "src/index.html"),
+        about: path.resolve(__dirname, "src/about.html"),
+        contact: path.resolve(__dirname, "src/contact.html"),
+        product: path.resolve(__dirname, "src/product.html"),
+      },
+    },
   },
 });

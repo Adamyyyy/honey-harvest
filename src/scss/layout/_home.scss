@@ -52,17 +52,17 @@
     .slide {
       height: 680px;
       &.slide-1 {
-        background: $text-color-primary url("img/img7.jpg") no-repeat 50%
+        background: $text-color-primary url("images/img7.jpg") no-repeat 50%
           top;
         @include background-size(cover);
       }
       &.slide-2 {
-        background: $text-color-primary url("img/img5.jpg") no-repeat 50%
+        background: $text-color-primary url("images/img5.jpg") no-repeat 50%
           top;
         @include background-size(cover);
       }
       &.slide-3 {
-        background: $text-color-primary url("img/img6.jpg") no-repeat 50%
+        background: $text-color-primary url("images/img6.jpg") no-repeat 50%
           top;
         @include background-size(cover);
       }
@@ -139,25 +139,25 @@
   }
   .item-1 {
     .item-inner {
-      background: url("img/product-1.jpeg") no-repeat 50% 50%;
+      background: url("images/best-seller-1.jpeg") no-repeat 50% 50%;
       background-size: cover;
     }
   }
   .item-2 {
     .item-inner {
-      background: url("img/product-2.jpg") no-repeat 50% 50%;
+      background: url("images/best-seller-2.jpg") no-repeat 50% 50%;
       background-size: cover;
     }
   }
   .item-3 {
     .item-inner {
-      background: url("img/product-3.jpg") no-repeat 50% 50%;
+      background: url("images/best-seller-3.jpg") no-repeat 50% 50%;
       background-size: cover;
     }
   }
   .item-4 {
     .item-inner {
-      background: url("img/product-4.jpg") no-repeat 50% 50%;
+      background: url("images/best-seller-4.jpg") no-repeat 50% 50%;
       background-size: cover;
     }
   }
