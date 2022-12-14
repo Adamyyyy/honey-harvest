@@ -1,6 +1,7 @@
 const path = require("path");
+import { defineConfig } from "vite";
 
-export default {
+export default defineConfig({
   root: path.resolve(__dirname, "src"),
   resolve: {
     alias: {
@@ -11,4 +12,4 @@ export default {
     port: process.env.PORT,
     hot: true,
   },
-};
+});
